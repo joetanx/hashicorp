@@ -4,7 +4,7 @@ Ref: https://developer.hashicorp.com/boundary/tutorials/credential-management/os
 
 > [!Note]
 >
-> This integration requires the database engine and policy configured in [Database / PostgreSQL](vault/db-postgres.md)
+> This integration requires the database engine and policy configured in [Database / PostgreSQL](../vault/db-postgres.md)
 
 ### 1.1. Create the boundary-controller policy
 
