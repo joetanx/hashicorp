@@ -54,7 +54,7 @@ policies             ["boundary-controller" "postgresql-access"]
 
 ## 2. Configure Boundary
 
-Prepare the necessary environment variables:
+Prepare the Boundary CLI login information in environment variables:
 - `BOUNDARY_AUTH_METHOD_ID`
 - `BOUNDARY_ADDR`
 - `BOUNDARY_TOKEN`
