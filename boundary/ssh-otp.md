@@ -4,7 +4,7 @@ Ref: https://developer.hashicorp.com/boundary/tutorials/credential-management/os
 
 > [!Note]
 >
-> This integration requires the database engine and policy configured in [SSH One-Time Password](vault/ssh-otp.md)
+> This integration requires the database engine and policy configured in [SSH One-Time Password](../vault/ssh-otp.md)
 
 ### 1.1. Create the boundary-controller policy
 
