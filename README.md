@@ -18,6 +18,7 @@
 |Topic|Link|
 |---|---|
 |Install Boundary|https://github.com/joetanx/hashicorp/blob/main/boundary/install.md|
+|OIDC Auth Method|https://github.com/joetanx/hashicorp/blob/main/boundary/oidc-auth-method.md|
 |Boundary + PostgreSQL|https://github.com/joetanx/hashicorp/blob/main/boundary/db-postgres.md|
 |Boundary + SSH OTP|https://github.com/joetanx/hashicorp/blob/main/boundary/ssh-otp.md|
 |Boundary + KV/RDP|https://github.com/joetanx/hashicorp/blob/main/boundary/kv-rdp.md|
