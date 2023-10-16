@@ -56,15 +56,12 @@ Copy the `Client secret`, this is required for the Vault OIDC config later
 
 ## 5. 📌 Boundary - Setup Auth Method
 
-Prepare Boundary CLI login information
-
-```sh
-export BOUNDARY_AUTH_METHOD_ID=$(grep 'Auth Method ID' /etc/boundary.d/init.log | cut -d ':' -f 2 | tr -d ' ')
-export BOUNDARY_ADDR=https://boundary.vx:9200
-export BOUNDARY_AUTHENTICATE_PASSWORD_LOGIN_NAME=admin
-export BOUNDARY_AUTHENTICATE_PASSWORD_PASSWORD=$(grep Password /etc/boundary.d/init.log | cut -d ':' -f 2 | tr -d ' ')
-export BOUNDARY_TOKEN=$(boundary authenticate password -password=env://BOUNDARY_AUTHENTICATE_PASSWORD_PASSWORD -keyring-type=none | grep at_)
-```
+Prepare the Boundary CLI login information in environment variables:
+- `BOUNDARY_AUTH_METHOD_ID`
+- `BOUNDARY_ADDR`
+- `BOUNDARY_TOKEN`
+- `BOUNDARY_SCOPE_ID`
+- `BOUNDARY_VAULT_TOKEN`
 
 Prepare parameters for auth-method configuration
 
