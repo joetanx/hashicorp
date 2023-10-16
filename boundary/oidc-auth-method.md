@@ -1,4 +1,4 @@
-#### 11.4.1. 📌 Keycloak - Setup authentication client
+## 1. 📌 Keycloak - Setup authentication client
 
 Select `Create client`
 
@@ -24,7 +24,7 @@ Copy the `Client secret`, this is required for the Vault OIDC config later
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/c1a6ac42-9085-47ae-b4a9-4b890ac0b1bf)
 
-#### 11.4.2. 📌 Keycloak - Configure group to be mapped to Boundary
+## 2. 📌 Keycloak - Configure group to be mapped to Boundary
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/6900e71f-ed3d-4b37-a78e-506b3a670fee)
 
@@ -36,7 +36,7 @@ Copy the `Client secret`, this is required for the Vault OIDC config later
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/d8867507-f4a5-44a2-ac87-2896f20077da)
 
-#### 11.4.3. 📌 Keycloak - Configure client scope
+## 3. 📌 Keycloak - Configure client scope
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/76b04a25-34e7-401c-a83e-955c3ddb3557)
 
@@ -48,13 +48,13 @@ Copy the `Client secret`, this is required for the Vault OIDC config later
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/fbee587c-891e-4d83-829b-d66499daf69a)
 
-#### 11.4.4. 📌 Keycloak - Add client scope
+## 4. 📌 Keycloak - Add client scope
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/781cca94-c8f2-434f-92a6-511bf7d0aec8)
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/6557946f-a6b1-4b8b-88ac-052d8b4340fe)
 
-#### 11.4.5. 📌 Boundary - Setup Auth Method
+## 5. 📌 Boundary - Setup Auth Method
 
 Prepare Boundary CLI login information
 
@@ -315,7 +315,7 @@ Role information:
     id=*;type=*;actions=*
 ```
 
-#### 11.4.6. 📌 Boundary - Test login
+## 6. 📌 Boundary - Test login
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/7a46f9d3-c7be-4339-8b29-e6ee05c5c0ce)
 
