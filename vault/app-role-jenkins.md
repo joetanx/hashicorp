@@ -21,7 +21,7 @@ Success! Enabled approle auth method at: approle/
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/38c6efd8-693b-49af-af6d-d9b8a352a236)
 
-## 2. Pipeline 1 - Generate Role and Secret IDs and use directly
+## 2. Using app role (option 1) - Generate Role and Secret IDs and use directly
 
 ### 2.1. 📌 Vault: create app role for pipeline 1 and get role and secret IDs
 
@@ -135,7 +135,7 @@ pipeline {
 
 ![image](https://github.com/joetanx/hashicorp/assets/90442032/71d07356-0faa-496f-985d-9bc3e54db5bf)
 
-## 3. Pipeline 2 - Response Wrapping
+## 3. Using app role (option 2) - Response Wrapping
 
 ### 3.1. 📌 Vault: Create policy to allow wrapper to generate wrapped secret IDs
 
