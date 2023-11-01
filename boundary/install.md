@@ -52,8 +52,8 @@ Prepare TLS with [lab certs](https://github.com/joetanx/lab-certs/)
 
 ```sh
 mkdir /etc/boundary.d/tls
-curl -sLo /etc/boundary.d/tls/boundary-cert.pem https://github.com/joetanx/lab-certs/raw/main/hashicorp/boundary.vx.pem
-curl -sLo /etc/boundary.d/tls/boundary-key.pem https://github.com/joetanx/lab-certs/raw/main/hashicorp/boundary.vx.key
+curl -sLo /etc/boundary.d/tls/boundary-cert.pem https://github.com/joetanx/lab-certs/raw/main/others/boundary.vx.pem
+curl -sLo /etc/boundary.d/tls/boundary-key.pem https://github.com/joetanx/lab-certs/raw/main/others/boundary.vx.key
 curl -sLo /etc/boundary.d/tls/vault-ca.pem https://github.com/joetanx/lab-certs/raw/main/ca/lab_issuer.pem
 ```
 
