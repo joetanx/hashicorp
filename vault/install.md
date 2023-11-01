@@ -8,8 +8,8 @@
 curl -sLo/etc/yum.repos.d/hashicorp.repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
 yum -y install vault && rm -f /etc/yum.repos.d/hashicorp.repo
 firewall-cmd --permanent --add-port 8200/tcp && firewall-cmd --reload
-curl -sLo /opt/vault/tls/tls.crt https://github.com/joetanx/lab-certs/raw/main/vault/vault.vx.pem
-curl -sLo /opt/vault/tls/tls.key https://github.com/joetanx/lab-certs/raw/main/vault/vault.vx.key
+curl -sLo /opt/vault/tls/tls.crt https://github.com/joetanx/lab-certs/raw/main/others/vault.vx.pem
+curl -sLo /opt/vault/tls/tls.key https://github.com/joetanx/lab-certs/raw/main/others/vault.vx.key
 chown vault:vault /opt/vault/tls/tls.*
 echo 'ui = true' >> /etc/vault.d/vault.hcl
 echo 'api_addr = "https://vault.vx:8200"' >> /etc/vault.d/vault.hcl
